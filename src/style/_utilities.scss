@@ -1,0 +1,43 @@
+@import 'variables';
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex_column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.jcs{
+  justify-content: space-between;
+}
+.jcsa{
+  justify-content: space-around;
+}
+.button {
+  text-align: center;
+  margin: 4px;
+  padding: 2px;
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 650;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  color: $primaryFont-color;
+  background-color: $secondary-color;
+  &:hover {
+    background-color: #40b604;
+  }
+}
+.error {
+  color: red;
+  font-size: 12px;
+  font-weight: 600;
+}

@@ -1,0 +1,60 @@
+// src/styles/_base.scss
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
+@import "variables";
+// Define font families
+$body-font-family: "Roboto", sans-serif;
+$heading-font-family: "Roboto", sans-serif;
+
+// Apply font families
+
+// Typography
+body {
+  font-family: $body-font-family;
+  font-size: $base-font-size;
+  font-weight: 650;
+
+  background-color: $background-color;
+  // color: $secondaryFont-color2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+  & :hover {
+    border-bottom: 0.4px solid black;
+  }
+}
+
+
+
+
+// Reset styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Global styles
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.content {
+  height: calc(100vh - 60px);
+  padding-top: 80px;
+  background-color: $background-color2;
+}
+
+// ------------------------------------------

@@ -1,0 +1,22 @@
+@import "../style/variables";
+
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; // Full width
+    height: 60px; // Adjust height as needed
+    background-color: $background-color; 
+    // color:#FFFFFF;
+    // padding: 10px 20px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid black;
+  }
+
+.logo{
+    flex: 2;
+}
+.link{
+    flex:3;
+}
